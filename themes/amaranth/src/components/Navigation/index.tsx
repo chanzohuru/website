@@ -1,13 +1,10 @@
 import React from "react";
 
-import { useConfig } from "gatsby-theme-advanced";
-
 import { AdvancedLogo } from "../../icons";
 
 import * as S from "./style";
 
 const Navigation = (): JSX.Element => {
-  const config = useConfig();
 
   return (
     <S.Wrapper>
@@ -17,9 +14,6 @@ const Navigation = (): JSX.Element => {
       </S.HomeButton>
       <S.NavGrid>
         <S.NavButton to="/">Latest</S.NavButton>
-        <S.NavButton noBasePath to="/about">
-          About
-        </S.NavButton>
         <S.NavButton noBasePath to="/coc">
           CoC
         </S.NavButton>
