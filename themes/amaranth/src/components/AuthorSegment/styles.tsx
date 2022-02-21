@@ -67,6 +67,7 @@ export const Avatar = styled.img`
   height: 128px;
 
   border-radius: 50%;
+  border: 1px solid red;
   overflow: hidden;
 `;
 

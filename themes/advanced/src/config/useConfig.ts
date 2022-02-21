@@ -47,6 +47,8 @@ const useConfig = (): SiteConfig => {
                 linkedIn
                 location
                 twitterName
+                instagramName
+                tiktokName
               }
               website {
                 backgroundColor

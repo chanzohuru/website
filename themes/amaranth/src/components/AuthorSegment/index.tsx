@@ -25,7 +25,7 @@ const AuthorSegment = (): JSX.Element | null => {
         </S.Info>
       </S.Main>
       <S.Contact>
-        <S.ShareLabel>Find me on</S.ShareLabel>
+        <S.ShareLabel>Find us on</S.ShareLabel>
         <S.TightUserLinks />
       </S.Contact>
       <S.Separator />

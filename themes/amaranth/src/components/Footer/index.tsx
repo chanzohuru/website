@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useConfig } from "gatsby-theme-advanced";
+import { useConfig } from "../../../../advanced/src/config";
 
 import UserLinks from "../UserLinks";
 import { Caption, H3 } from "../../theme";

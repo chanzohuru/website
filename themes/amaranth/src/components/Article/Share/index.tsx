@@ -4,13 +4,13 @@ import {
   Twitter as TwitterIcon,
   LinkedinSquare as LinkedInIcon,
   FacebookCircle as FacebookIcon,
-  Reddit as RedditIcon,
+  Whatsapp as WhatsappIcon,
 } from "@styled-icons/boxicons-logos";
 import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  RedditShareButton,
+  WhatsappShareButton,
 } from "react-share";
 
 import { Types, useConfig } from "gatsby-theme-advanced";
@@ -61,9 +61,9 @@ const ArticleShare = ({ post }: ArticleShareProps): JSX.Element => {
           >
             <TwitterIcon size={40} />
           </TwitterShareButton>
-          <RedditShareButton url={url} title={title}>
-            <RedditIcon size={40} />
-          </RedditShareButton>
+          <WhatsappShareButton url={url} title={title}>
+            <WhatsappIcon size={40} />
+          </WhatsappShareButton>
           <LinkedinShareButton
             url={url}
             title={title}

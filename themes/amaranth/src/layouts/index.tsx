@@ -35,8 +35,8 @@ const MainLayout = ({ children }: MainLayoutProps): JSX.Element => (
     <LayoutGrid>
       <LayoutWidthContainer>
         <Navigation />
+        {children}
       </LayoutWidthContainer>
-      {children}
       <Footer />
     </LayoutGrid>
   </ThemeProvider>

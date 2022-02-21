@@ -22,6 +22,8 @@ export interface UserData {
   firstName: string;
   lastName: string;
   twitterName?: string;
+  instagramName?: string;
+  tiktokName?: string;
   linkedIn?: string;
   github?: string;
   email: string;
