@@ -14,9 +14,7 @@ const Navigation = (): JSX.Element => {
       </S.HomeButton>
       <S.NavGrid>
         <S.NavButton to="/">Latest</S.NavButton>
-        <S.NavButton noBasePath to="/coc">
-          CoC
-        </S.NavButton>
+        <S.NavButton to="/coc">CoC</S.NavButton>
       </S.NavGrid>
     </S.Wrapper>
   );
