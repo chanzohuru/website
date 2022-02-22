@@ -80,3 +80,6 @@ coverage-ts/
 cypress/screenshots
 cypress/videos
 
+
+# Enviroment variables
+.env

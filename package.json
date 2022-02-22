@@ -35,17 +35,20 @@
     "test": "jest",
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
-    "write-good": "write-good **/content/*.{md,mdx}"
+    "write-good": "write-good **/content/*.{md,mdx}",
+    "deploy": "gatsby clean && gatsby build && node deploy"
   },
   "dependencies": {
     "@stylelint/postcss-css-in-js": "^0.37.2",
     "babel-plugin-styled-components": "^1.13.3",
+    "dotenv": "^16.0.0",
     "gatsby": "^4.0.0",
     "gatsby-plugin-styled-components": "^5.0.0",
     "gatsby-theme-amaranth": "*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.28.0",
+    "ssh2-sftp-client": "^7.2.2",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -56,6 +59,7 @@
     "@types/react": "^17.0.31",
     "@types/react-dom": "^17.0.10",
     "@types/react-helmet": "^6.1.4",
+    "@types/ssh2-sftp-client": "^7",
     "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "babel-jest": "^27.3.1",
