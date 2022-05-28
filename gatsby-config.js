@@ -1,5 +1,20 @@
 module.exports = {
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-5D2P8TL",
+  
+        // Include GTM in development.
+        //
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+        // Defaults to false
+        enableWebVitalsTracking: true,
+        // Defaults to https://www.googletagmanager.com
+        // selfHostedOrigin: "YOUR_SELF_HOSTED_ORIGIN",
+      },
+    },
     "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-theme-amaranth",
