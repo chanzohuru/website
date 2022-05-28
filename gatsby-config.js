@@ -66,7 +66,7 @@ module.exports = {
           fbAppId: "1825356251115265",
           twitterName: "chanzohuru",
           url: "https://chanzohuru.or.tz",
-          googleAnalyticsId: "UA-47311644-5",
+          googleAnalyticsId: "G-W78CPMM2TY",
           copyright: "© Copyright 2022 | ChanzoHuru",
           logoUrl: "/logos/icon.png",
         },
