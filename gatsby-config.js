@@ -70,7 +70,6 @@ module.exports = {
           copyright: "© Copyright 2022 | ChanzoHuru",
           logoUrl: "/logos/icon.png",
         },
-
         user: {
           id: "chanzohuru",
           firstName: "Chanzo",
